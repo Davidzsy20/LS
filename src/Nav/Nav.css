@@ -6,8 +6,7 @@
     padding-left: 3%;
     transition: top 0.3s;
     z-index: 1;
-    
-
+    background:rgba(154,135,157, 0.8);
 }
 
 .nav-item{

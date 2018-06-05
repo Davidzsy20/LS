@@ -2,17 +2,34 @@
   "name": "lss",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://davidzsy20.github.io/LS",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "0.0.20",
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "fullpage-react": "^3.0.31",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
     "react": "^16.4.0",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
+    "react-fontawesome": "^1.6.1",
     "react-responsive-carousel": "^3.1.39",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }

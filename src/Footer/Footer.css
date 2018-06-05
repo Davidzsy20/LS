@@ -1,10 +1,35 @@
 .Footer{
     position: relative;
+    padding:96px 48px 63px 48px;
     width: 100%;
     height: 481px;
-    background-color: #504242;
+    background-color:#BEA8AA;
     opacity: 73%;
-    right: 0;
-    bottom: 0;
-    left: 0;
+
+    box-sizing:border-box;
+    text-align: center;
+}
+.Footer img{
+    width: 7%;
+}
+.facebook:hover{
+    fill:black;
+    transition: fill 2s; 
+}
+.socialMedia.foot{
+   
+}
+.socialMedia.foot img{
+    display: inline;
+    margin-left: 2%;
+  
+}
+.subtitle.foot{
+    margin-bottom: 48px;
+
+}
+.copyright.foot{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }
