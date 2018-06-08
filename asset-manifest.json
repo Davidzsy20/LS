@@ -1,12 +1,22 @@
 {
-  "main.css": "static/css/main.5bcd8994.css",
-  "main.css.map": "static/css/main.5bcd8994.css.map",
-  "main.js": "static/js/main.e68cbd57.js",
-  "main.js.map": "static/js/main.e68cbd57.js.map",
+  "main.css": "static/css/main.9c233143.css",
+  "main.css.map": "static/css/main.9c233143.css.map",
+  "main.js": "static/js/main.c54aca95.js",
+  "main.js.map": "static/js/main.c54aca95.js.map",
   "static/media/Cat.JPG": "static/media/Cat.02e3ef10.JPG",
   "static/media/Cat2.JPG": "static/media/Cat2.cadb0cd0.JPG",
   "static/media/Walk.JPG": "static/media/Walk.31cf624c.JPG",
   "static/media/Window.JPG": "static/media/Window.14d69e9b.JPG",
+  "static/media/facebook.svg": "static/media/facebook.4c6310fc.svg",
+  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
+  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
+  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
+  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/instagram.svg": "static/media/instagram.3edca585.svg",
   "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
-  "static/media/ls.jpg": "static/media/ls.041b3b6d.jpg"
+  "static/media/ls.jpg": "static/media/ls.041b3b6d.jpg",
+  "static/media/snap.svg": "static/media/snap.73636442.svg",
+  "static/media/soundcloud.svg": "static/media/soundcloud.db4e539a.svg",
+  "static/media/youtube.svg": "static/media/youtube.49cf8104.svg"
 }
