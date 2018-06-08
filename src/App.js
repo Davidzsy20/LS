@@ -8,16 +8,18 @@ import Nav from './Nav/Nav.js'
 import Footer from './Footer/Footer.js';
 import Slideshow from './Content/Slideshow.js';
 import logo from './logo.svg';
+import {Route} from 'react-router-dom'
+import Music from './Content/Music';
+import Home from './Content/Home';
 // import faStyles from 'font-awesome/css/font-awesome.css'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav/>
-        
-        <Slideshow/>
-        <img src={logo} width='90px' />
-        <Footer/>
+
+         <Route exact={true} path='/' component={Home}/> 
+        <Route exact={true} path='/Music' component={Music}/>
+
       </div>
     );
   }

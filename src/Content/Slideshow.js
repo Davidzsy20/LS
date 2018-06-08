@@ -75,7 +75,6 @@ class Slideshow extends Component {
 
   render() {
     const { activeIndex } = this.state;
-console.log(window)
     const slides = items.map((item) => {
       return (
         <CarouselItem

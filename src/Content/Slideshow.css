@@ -2,6 +2,10 @@
 .slides{
     width:100%;
     height: auto;
+    z-index: 1;
+}
+.carousel{
+    z-index: 1;
 }
 .carousel-indicators li {
     border-radius: 12px;
@@ -19,5 +23,4 @@
     top: 100px;
     text-align: right;
     margin-right: 10px
-   
 }
