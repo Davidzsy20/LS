@@ -74,3 +74,13 @@ text-decoration: none;
     transform: translateY(5px);
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
   }
+  .burger{
+      text-align: right;
+      padding-right: 4%;
+}
+  @media (max-width: 768px) {
+    .nav {
+      background-color: rgba(0, 0, 0, 0.35);
+
+    }
+  }
