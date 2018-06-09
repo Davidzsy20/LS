@@ -61,6 +61,7 @@ class Nav extends Component {
         return (
           <div className='nav'>
            {Burger}
+           
            </div>
         )
       }
@@ -88,6 +89,14 @@ function BurgerOff(props) {
 }
 function BurgerOn(props) {
   return (
+    <div className ='burgerOn'>
      <div className='burger' onClick={props.onClick}><i className="fa fa-3x fa-times" color='red'></i></div>
+     <div className='burgerOn-Links'>
+     <Link to="/Artist" className="nav-item hvr-float-shadow">Artist</Link>
+        <Link to="/Music" className="nav-item hvr-float-shadow">Music</Link>
+        <Link to="/Event" className="nav-item hvr-float-shadow">Event</Link>
+        <Link to="/Shop" className="nav-item hvr-float-shadow">Shop</Link>
+        </div>
+     </div>
   )
 }
