@@ -4,7 +4,7 @@
     height: 481px;
     background-color:#BEA8AA;
     opacity: 73%;
-
+    bottom:0;
     box-sizing:border-box;
     text-align: center;
 }

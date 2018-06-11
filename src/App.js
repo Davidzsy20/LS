@@ -11,6 +11,7 @@ import logo from './logo.svg';
 import {HashRouter as Router, Route} from 'react-router-dom'
 import Music from './Content/Music';
 import Home from './Content/Home';
+import Artist from './Content/Artist';
 // import faStyles from 'font-awesome/css/font-awesome.css'
 class App extends Component {
   render() {
@@ -18,7 +19,8 @@ class App extends Component {
       <div className="App">
 
          <Route exact={true} path='/' component={Home}/>
-        <Route exact={true} path='/Music' component={Music}/>
+        <Route  path='/Music' component={Music}/>
+        <Route path='/Artist' component={Artist}/>
 
       </div>
     );
