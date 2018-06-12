@@ -8,7 +8,7 @@ import Nav from './Nav/Nav.js'
 import Footer from './Footer/Footer.js';
 import Slideshow from './Content/Slideshow.js';
 import logo from './logo.svg';
-import {HashRouter as Router, Route} from 'react-router-dom'
+import {HashRouter, BrowserRouter as Router, Route,Switch} from 'react-router-dom'
 import Music from './Content/Music';
 import Home from './Content/Home';
 import Artist from './Content/Artist';
@@ -21,12 +21,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Router>
+        <Switch>
+        
 
          <Route exact={true} path='/' component={Home}/>
         <Route  path='/Music' component={Music}/>
         <Route path='/Artist' component={Artist}/>
         <Route path='/Event' component={Event}/>
         <Route path='/Shop' component={Shop}/>
+        </Switch>
+      </Router>
 
 
       </div>
