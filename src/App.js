@@ -12,6 +12,10 @@ import {HashRouter as Router, Route} from 'react-router-dom'
 import Music from './Content/Music';
 import Home from './Content/Home';
 import Artist from './Content/Artist';
+import Event from './Content/Event';
+import Shop from './Content/Shop';
+
+
 // import faStyles from 'font-awesome/css/font-awesome.css'
 class App extends Component {
   render() {
@@ -21,6 +25,9 @@ class App extends Component {
          <Route exact={true} path='/' component={Home}/>
         <Route  path='/Music' component={Music}/>
         <Route path='/Artist' component={Artist}/>
+        <Route path='/Event' component={Event}/>
+        <Route path='/Shop' component={Shop}/>
+
 
       </div>
     );

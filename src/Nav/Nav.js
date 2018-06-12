@@ -68,7 +68,7 @@ class Nav extends Component {
       else{
     return(
     <div className={navStatus} onScroll={(e)=>{this.handleScroll(e);}}>
-        <img src={ls} width='96px'/>
+        <Link to="/#"><img src={ls} width='96px'/></Link>
         <Link to="/Artist" className="nav-item hvr-float-shadow">Artist</Link>
         <Link to="/Music" className="nav-item hvr-float-shadow">Music</Link>
         <Link to="/Event" className="nav-item hvr-float-shadow">Event</Link>

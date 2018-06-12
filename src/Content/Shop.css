@@ -1,0 +1,13 @@
+.shopContainer .nav{
+    background: black;
+}
+.blackNav{
+    background: black
+}
+.shopContent{
+    height: 1000px;
+}
+.shopBanner{
+    top:100px;
+    position: relative;
+}
