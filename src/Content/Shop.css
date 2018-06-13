@@ -1,11 +1,9 @@
 .shopContainer .nav{
     background: black;
 }
-.blackNav{
-    background: black
-}
+
 .shopContent{
-    height: 1000px;
+    height: 100vh;
 }
 .shopBanner{
     top:100px;

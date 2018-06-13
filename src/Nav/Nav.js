@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Nav.css";
 import {Link} from 'react-router-dom';
-import ls from '../ls.jpg'
+import ls from '../ls.png'
 
 class Nav extends Component {
   constructor(props){
@@ -57,22 +57,24 @@ class Nav extends Component {
       );
       console.log(this.burger,'xxx')
       if(this.state.width<768) {
-        
+
         return (
           <div className='nav'>
            {Burger}
-           
+
            </div>
         )
       }
       else{
     return(
     <div className={navStatus} onScroll={(e)=>{this.handleScroll(e);}}>
-        <Link to="/#"><img src={ls} width='96px'/></Link>
+    <div className='navItems'>
+        <Link to="/#"><img src={ls} className='logo'/></Link>
         <Link to="/Artist" className="nav-item hvr-float-shadow">Artist</Link>
         <Link to="/Music" className="nav-item hvr-float-shadow">Music</Link>
         <Link to="/Event" className="nav-item hvr-float-shadow">Event</Link>
         <Link to="/Shop" className="nav-item hvr-float-shadow">Shop</Link>
+        </div>
       </div>
     )
   }

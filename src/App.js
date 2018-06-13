@@ -26,10 +26,10 @@ class App extends Component {
         
 
          <Route exact={true} path='/' component={Home}/>
-        <Route  path='/Music' component={Music}/>
-        <Route path='/Artist' component={Artist}/>
-        <Route path='/Event' component={Event}/>
-        <Route path='/Shop' component={Shop}/>
+        <Route  path={`${process.env.PUBLIC_URL}/Music`} component={Music}/>
+        <Route path={`${process.env.PUBLIC_URL}/Artist`} component={Artist}/>
+        <Route path={`${process.env.PUBLIC_URL}/Event`} component={Event}/>
+        <Route path={`${process.env.PUBLIC_URL}/Shop`} component={Shop}/>
         </Switch>
       </Router>
 

@@ -8,7 +8,7 @@ class Shop extends Component {
     render() {
     return(
     <div className='shopContainer'>
-          <Nav className='blackNav'/>
+          <Nav/>
           <div className='shopContent'>
           <div className='shopBanner'>
           <h1> Comming Soon.</h1>
