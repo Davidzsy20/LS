@@ -11,7 +11,6 @@ class Music extends Component {
     <div>
           <Nav/>
           <div className='musicContent'>
-          <Embed id='O6Xo21L0ybE'  source='youtube' />
           </div>
         <Footer/>
     </div>

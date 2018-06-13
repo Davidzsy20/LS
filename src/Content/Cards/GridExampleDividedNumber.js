@@ -3,11 +3,9 @@ import { Grid, Image } from 'semantic-ui-react'
 import './GridExampleDividedNumber.css'
 import {Link} from 'react-router-dom';
 const GridExampleDividedNumber = () => (
-  
-
   <Grid>
     <Grid.Row columns={3} divided>
-      <Grid.Column artist-column>
+      <Grid.Column>
       <Link to="/#">
         <Image src='http://semantic-ui.com/images/avatar2/large/kristy.png' />
         </Link>

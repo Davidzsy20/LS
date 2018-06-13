@@ -3,7 +3,6 @@ import Logo from './logo.svg';
 import './App.css';
 import 'font-awesome/css/font-awesome.min.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/fontawesome-free-solid'
 import Nav from './Nav/Nav.js'
 import Footer from './Footer/Footer.js';
 import Slideshow from './Content/Slideshow.js';
@@ -23,13 +22,11 @@ class App extends Component {
       <div className="App">
       <Router>
         <Switch>
-        
-
          <Route exact={true} path='/' component={Home}/>
-        <Route  path={`${process.env.PUBLIC_URL}/Music`} component={Music}/>
-        <Route path={`${process.env.PUBLIC_URL}/Artist`} component={Artist}/>
-        <Route path={`${process.env.PUBLIC_URL}/Event`} component={Event}/>
-        <Route path={`${process.env.PUBLIC_URL}/Shop`} component={Shop}/>
+        <Route  path='/Music' component={Music}/>
+        <Route path='/Artist' component={Artist}/>
+        <Route path='/Event' component={Event}/>
+        <Route path='Shop' component={Shop}/>
         </Switch>
       </Router>
 
