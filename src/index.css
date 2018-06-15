@@ -12,6 +12,7 @@
   font-family: 'Open Sans';
   vertical-align: baseline;
   background: transparent;
+  box-sizing: inherit;
 }
 html{
   font-family: 'Courier New', Courier, monospace;
@@ -20,6 +21,7 @@ body, html{
   margin: 0;
   height: 100%;
   width: 100%;
+  box-sizing: border-box;
 }
 .banner1{
   background-image: url("banner1.png");

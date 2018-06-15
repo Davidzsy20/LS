@@ -4,8 +4,65 @@
 
 .shopContent{
     height: 100vh;
+    background-color: black;
 }
 .shopBanner{
-    top:100px;
-    position: relative;
+    top:50%;
+    left: 50%;
+    background: black;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: translate(-40%,-50%);
+}
+.shopBanner-main{
+color:#fff;
+text-transform: uppercase;
+font-size: 40px;
+font-weight: 400;
+letter-spacing: 25px;
+display: block;
+animation-name: moveInLeft;
+animation-duration: 3s;
+}
+.shopBanner-sub{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+
+}
+@keyframes moveInLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80%{
+        transform: translateX(10px);
+
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+@keyframes moveInRight{
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80%{
+        transform: translateX(-10px);
+
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
 }

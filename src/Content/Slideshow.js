@@ -8,9 +8,9 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import { Fullpage, Slide, HorizontalSlider } from 'fullpage-react';
-import Img1 from '../img/Banner1.JPG';
-import Img2 from '../img/Cat2.JPG';
-import Img3 from '../img/Walk.JPG';
+import Img1 from '../img/edm1.png';
+import Img2 from '../img/fan1.png';
+import Img3 from '../img/fan2.png';
 import Img4 from '../img/Window.JPG';
 
 

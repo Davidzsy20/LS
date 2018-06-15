@@ -11,8 +11,8 @@ class Shop extends Component {
           <Nav/>
           <div className='shopContent'>
           <div className='shopBanner'>
-          <h1> Comming Soon.</h1>
-          <h1> 敬请期待</h1>
+          <span className='shopBanner-main'> Comming Soon</span>
+          <span className='shopBanner-sub'> 敬请期待</span>
           </div>
 
           </div>

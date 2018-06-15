@@ -7,31 +7,29 @@ import Nav from './Nav/Nav.js'
 import Footer from './Footer/Footer.js';
 import Slideshow from './Content/Slideshow.js';
 import logo from './logo.svg';
-import {HashRouter, BrowserRouter as Router, Route,Switch} from 'react-router-dom'
+import {HashRouter, Route,Switch} from 'react-router-dom'
 import Music from './Content/Music';
 import Home from './Content/Home';
 import Artist from './Content/Artist';
-import Event from './Content/Event';
+import Events from './Content/Event';
 import Shop from './Content/Shop';
 
 
 // import faStyles from 'font-awesome/css/font-awesome.css'
 class App extends Component {
+
   render() {
+    const baseUrl = process.env.PUBLIC_URL
+    console.log(baseUrl);
     return (
-      <div className="App">
-      <Router>
         <Switch>
          <Route exact={true} path='/' component={Home}/>
         <Route  path='/Music' component={Music}/>
         <Route path='/Artist' component={Artist}/>
-        <Route path='/Event' component={Event}/>
-        <Route path='Shop' component={Shop}/>
+        <Route path='/Event' component={Events}/>
+        <Route path='/Shop' component={Shop}/>
+
         </Switch>
-      </Router>
-
-
-      </div>
     );
   }
 }
