@@ -16,8 +16,6 @@ class Shop extends Component {
           </div>
 
           </div>
-
-        <Footer/>
     </div>
     )
   }

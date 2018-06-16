@@ -10,8 +10,8 @@ import {Link} from 'react-router-dom';
 class Footer extends Component {
     render() {
     return(
-    <div className="Footer">
-    <div className='socialMedia foot'>
+    <div className="footer">
+    <div className='footer__socialMedia'>
 <a href='https://www.google.com' className='hvr-float-shadow'>
 <img src={facebook}/>
 </a>
@@ -28,11 +28,10 @@ class Footer extends Component {
 <img src={snap}/>
 </a>
 </div>
-<div className="subtitle foot">
+<div className="footer__subtitles">
 <Link to="/Shop" >Shop</Link>
 <Link to="/Shop" >Shop</Link>
-<Link to="/Shop" >Shop</Link>
-<Link to="/Shop" >Shop</Link>
+<Link to="/Shop" >Investor Relation</Link>
   </div>
 <div className="copyright foot">©2018. LoveSurvive.LLC All rights reserved.</div>
     </div>

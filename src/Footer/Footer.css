@@ -1,27 +1,26 @@
-.Footer{
+.footer{
     position: relative;
     width: 100%;
     height: 481px;
-    background-color:#BEA8AA;
+    background-color:#121d32;
     opacity: 73%;
     bottom:0;
     box-sizing:border-box;
     text-align: center;
 }
-.Footer .hvr-float-shadow{
+.footer .hvr-float-shadow{
     margin-left: 5%;
     width: 4%;
 }
 .facebook:hover{
-    fill:black;
+    fill:#968874;
     transition: fill 2s;
 }
-.socialMedia.foot{
+.footer__socialMedia{
    padding-top:100px;
 }
-.socialMedia.foot img{
+.footer__socialMedia img{
     display: inline;
-  
 }
 .subtitle{
     margin-top: 80px;
@@ -34,10 +33,29 @@
 
 
 }
+.footer__subtitles{
+    text-decoration: none;
+    vertical-align: center;
+    top:50px;
+    position: relative;
+}
+.footer__subtitles a{
+    text-decoration: none;
+    color:#968874;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 2%;
+    display: inline-block;
+
+
+
+}
+
 .copyright.foot{
     margin-top: 100px;
     position: absolute;
     width: 100%;
+    color:#968874;
 }
 .hvr-float-shadow img{
 width: 100%;
