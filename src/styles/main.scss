@@ -1,0 +1,15 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "base/animations";
+@import "base/base";
+@import "base/utilities";
+@import "base/typography";
+@import "components/shop";
+@import "pages/home";
+@import "layout/nav";
+
+  .banner1{
+    background-image: url("../banner1.png");
+    background-color: $color-background-grey;
+  }
