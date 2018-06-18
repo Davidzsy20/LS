@@ -1,28 +1,24 @@
-.containerArtist{
-overflow-x: hidden;
+.artist__container {
+  overflow-x: hidden; }
 
+.artist__content {
+  justify-content: center;
+  margin-top: -5vh; }
 
-}
-.contentArtist{
-    justify-content: center;
-    margin-top: -5vh;
+.artist__banner1 {
+  background-image: url("../banner1.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  padding-bottom: 20%;
+  position: relative;
+  display: block;
+  z-index: -1; }
 
-}
-.banner1{
-    background-image: url("../banner1.png") no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 60vh;
-    padding-bottom: 20%;
-    position: relative;
-    display: block;
-    z-index: -1;
-  }
-  #Banner-centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: aliceblue;
-    font-size: 6em;
-    transform: translate(-50%, -50%);
-}
+#Banner-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: aliceblue;
+  font-size: 6em;
+  transform: translate(-50%, -50%); }

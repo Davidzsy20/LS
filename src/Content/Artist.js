@@ -10,9 +10,9 @@ import {Link} from 'react-router-dom';
 class Artist extends Component {
     render() {
     return(
-    <div className='containerArtist'>
+    <div className='artist__container'>
           <Nav/>
-          <div className='banner1'>
+          <div className='artist__banner1 banner1'>
           <h1 id='Banner-centered' >Artist</h1>
           </div>
           <div className='contentArtist'>

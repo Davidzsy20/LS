@@ -7,7 +7,7 @@ import Slideshow from './Slideshow.js';
 class Home extends Component {
     render() {
     return(
-    <div >
+    <div className='home__container' height='100vh'>
           <Nav/>
        <Slideshow/>
         <Footer/>

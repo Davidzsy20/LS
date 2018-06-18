@@ -11,30 +11,25 @@ import { Fullpage, Slide, HorizontalSlider } from 'fullpage-react';
 import Img1 from '../img/edm1.png';
 import Img2 from '../img/fan1.png';
 import Img3 from '../img/fan2.png';
-import Img4 from '../img/Window.JPG';
+// import Img4 from '../img/Window.JPG';
 
 
 const items = [
   {
     src: Img1,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: '',
+    caption: ''
   },
   {
     src: Img2,
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: '',
+    caption: ''
   },
   {
     src: Img3,
-    altText: 'Slide 3',
-    caption: 'Slide 3'
-  },
-  {
-    src: Img4,
-    altText: 'Slide 4',
-    caption: 'Slide 4'
-  },
+    altText: '',
+    caption: ''
+  }
 ];
 
 class Slideshow extends Component {
@@ -77,6 +72,7 @@ class Slideshow extends Component {
     const { activeIndex } = this.state;
     const slides = items.map((item) => {
       return (
+
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}

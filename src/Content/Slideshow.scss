@@ -1,0 +1,47 @@
+
+.slides{
+    width:100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    animation: move 0.9s;
+}
+.carousel{
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+    top:10%;
+    margin-top: 5%;
+    background: transparent;
+    border: whitesmoke solid 3px;
+
+    left:95%;
+}
+.carousel-indicators{
+    display: block;
+    top: 100px;
+    text-align: right;
+    margin-right: 10px
+}
+@keyframes move {
+   0%{
+      opacity: 0;
+    }
+    20%{
+        opacity:0.05;
+    }
+    40% {
+        opacity: 0.06;
+    }
+    100%{
+     opacity: 1;
+    }
+ }
