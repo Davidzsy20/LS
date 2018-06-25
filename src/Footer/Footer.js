@@ -6,6 +6,7 @@ class Footer extends Component {
     render() {
     return(
     <div className="footer">
+    <div className='footer__content'>
     <div className='footer__socialMedia'>
 <a href='https://www.facebook.com/lovesurvivellc/' className='hvr-float-shadow'>
 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +45,8 @@ class Footer extends Component {
 <Link to="/Shop" >Event</Link>
 <Link to="/Shop" >Contact</Link>
   </div>
-<div className="footer__copyright">©2018. LoveSurvive.LLC All Rights Reserved.</div>
+<div className="footer__copyright">©2018. LoveSurvive.LLC All rights reserved.</div>
+</div>
     </div>
     )
   }

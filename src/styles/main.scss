@@ -6,9 +6,9 @@
 @import "base/utilities";
 @import "base/typography";
 @import "components/shop";
+@import "components/bg-video";
 @import "pages/home";
 @import "layout/nav";
-
   .banner1{
     background-image: url("../banner1.png");
     background-color: $color-background-grey;

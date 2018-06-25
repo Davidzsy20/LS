@@ -5,6 +5,8 @@
     overflow: hidden;
     z-index: 1;
     animation: move 0.9s;
+    object-fit: cover;
+    min-height: 55vh;
 }
 .carousel{
     position: relative;
